@@ -20,8 +20,10 @@ enable_testing()
 add_executable(stack_target
 src/get_min.cpp
 src/self_queue.cpp
+src/reverse_stack.cpp
 test/get_min_test.cpp
 test/self_queue_test.cpp
+test/reverse_stack_test.cpp
 )
 
 target_include_directories(stack_target
